@@ -2,7 +2,7 @@
 
 [![Deploy Jekyll site to GitHub Pages](https://github.com/RMlab2023/RMlab2023.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RMlab2023/RMlab2023.github.io/actions)
 
-Source for **[RMlab2023.github.io](https://RMlab2023.github.io)** — the website of The Madsen Lab, a quantitative systems biology group at UCL Cancer Institute studying PI3K signalling in health and disease.
+Source for **[RMlab2023.github.io](https://RMlab2023.github.io)** — the website of The Madsen Lab, a quantitative systems biology group at the CRUK Scotland Institute studying PI3K signalling in health and disease.
 
 Built with [Jekyll](https://jekyllrb.com) and hosted via [GitHub Pages](https://pages.github.com).
 
