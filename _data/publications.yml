@@ -1,0 +1,366 @@
+# Publications data file
+# Fields:
+#   title        – full paper title
+#   authors      – author list in "Last FM" format; Madsen RR in bold by convention
+#   journal      – journal / book name
+#   year         – publication year (integer)
+#   doi          – published DOI (omit leading https://doi.org/)
+#   preprint_doi – bioRxiv / medRxiv DOI if applicable
+#   status       – published | preprint | in-review
+#   type         – article | review | book-chapter
+#   corresponding – true if Madsen RR is corresponding author
+#   highlight    – true to feature on the Publications page
+#   description  – optional one-sentence summary
+#
+# Organised by type, then reverse chronological order within each type.
+
+# # ─── Submitted / in review ───────────────────────────────────────────────────
+
+# - title: >
+#     Genetic and pharmacologic inhibition of Keap1 dampens the pro-fibrotic
+#     program in human hepatic stellate cells
+#   authors: "Naidu S, Madsen RR, Phair IM, Al-Bathish B, Ang AD, Higgins M, Bian P, Kisielewski D, Moore T, Holm CK, Wigley WC, Hayes JD, Dinkova-Kostova AT"
+#   journal: ""
+#   year: 2025
+#   doi: ""
+#   preprint_doi: ""
+#   status: "in-review"
+#   type: "article"
+#   corresponding: false
+#   highlight: false
+#   description: "Submitted July 2025."
+
+# ─── Research articles ───────────────────────────────────────────────────────
+
+- title: >
+    PI3K inhibitor-free differentiation and maturation of human iPSC-derived
+    arterial- and venous-like endothelial cells
+  authors: "Mruk O, Madsen RR"
+  journal: "bioRxiv"
+  year: 2026
+  doi: ""
+  preprint_doi: "10.64898/2026.01.10.698801"
+  status: "preprint"
+  type: "article"
+  corresponding: true
+  highlight: true
+  description: ""
+
+- title: >
+    Mosaic hotspot PIK3CA mutations cause non-cell-autonomous vascular
+    overgrowth and pan-lineage dysregulation at disease onset
+  authors: "Brunsdon H, Wang N, Raredon MSB, Madsen RR, Semple RK, Patton EE"
+  journal: "bioRxiv"
+  year: 2025
+  doi: ""
+  preprint_doi: "10.64898/2025.12.03.691507"
+  status: "preprint"
+  type: "article"
+  corresponding: false
+  highlight: false
+  description: ""
+
+- title: >
+    Non-equilibrium strategies for ligand specificity in signaling networks
+  authors: "Goetz A, Barrios J, Madsen RR, Dixit P"
+  journal: "eLife"
+  year: 2025
+  doi: "10.7554/eLife.107524.1"
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: false
+  highlight: false
+  description: ""
+
+- title: >
+    Oncogenic PIK3CA corrupts growth factor signalling specificity
+  authors: "Madsen RR, Le Marois A, Mruk O, Voliotis M, Yin S, Sufi J, Qin X, Zhao SJ, Gorczynska J, Morelli D, Davidson L, Sahai E, Korolchuk VI, Tape CJ, Vanhaesebroeck B"
+  journal: "Molecular Systems Biology"
+  year: 2024
+  doi: "10.1038/s44320-024-00078-x"
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: true
+  highlight: true
+  description: >
+    We develop a single-cell framework for quantifying PI3K signalling and
+    show that oncogenic PIK3CA corrupts the specificity of growth factor
+    signal encoding.
+
+- title: >
+    SIGNAL-seq: Multimodal single-cell inter- and intra-cellular signalling analysis
+  authors: "Opzoomer JW, O'Sullivan R, Sufi J, Madsen RR, Qin X, Basiarz E, Tape CJ"
+  journal: "bioRxiv"
+  year: 2024
+  doi: ""
+  preprint_doi: "10.1101/2024.02.23.581433"
+  status: "preprint"
+  type: "article"
+  corresponding: false
+  highlight: false
+  description: ""
+
+- title: >
+    Cholesterol biosynthesis inhibition synergizes with AKT inhibitors in
+    triple-negative breast cancer
+  authors: "Hillis AL, Martin TD, Manchester HE, Hogstrom JM, Zhang N, Lecky E, Kozlova N, Persky NS, Root DE, Brown M, Cichowski K, Elledge SJ, Muranen T, Fruman DA, Barry ST, Clohessy JG, Madsen RR, Toker A"
+  journal: "Cancer Research"
+  year: 2024
+  doi: "10.1158/0008-5472.CAN-24-0970"
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: false
+  highlight: false
+  description: ""
+
+- title: >
+    Multi-omic profiling of breast cancer cells uncovers stress
+    MAPK-associated sensitivity to AKT degradation
+  authors: "Erickson EC, You I, Perry G, Dugourd A, Donovan K, Ros S, Moss J, Ziegler R, Williamson S, Crafter C, Johannes J, Barry S, Fischer E, Gray N, Madsen RR, Toker A"
+  journal: "Science Signaling"
+  year: 2024
+  doi: "10.1126/scisignal.adf2670"
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: true
+  highlight: true
+  description: ""
+
+- title: >
+    A small-molecule PI3Kα activator for cardioprotection and neuroregeneration
+  authors: "Gong GQ, Allsop B, Masson GR, Roberton V, Bilanges B, Askwith T, Oxenford S, Madsen RR, Conduit SE, Fitzek M, Collier M, Chan E, Feierberg I, Madin A, Morelli D, Bhamra A, Surinova S, Pinotsis N, Lopez-Guadamillas E, Wilcox M, Whitehead MA, Davidson SM, Yellow DM, Perisic O, Hooper A, Patel C, Bunney TD, Katan D, Smith D, Phillips J, Williams RL, Angell R, Vanhaesebroeck B"
+  journal: "Nature"
+  year: 2023
+  doi: "10.1038/s41586-023-05972-2"
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: false
+  highlight: true
+  description: ""
+
+- title: >
+    Positive correlation between transcriptomic stemness and PI3K/AKT/mTOR
+    signalling scores in breast cancer, and a counterintuitive relationship
+    with PIK3CA genotype
+  authors: "Madsen RR, Erickson EC, Rueda OM, Robin X, Caldas C, Toker A, Semple RK, Vanhaesebroeck B"
+  journal: "PLOS Genetics"
+  year: 2021
+  doi: "10.1371/journal.pgen.1009876"
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: true
+  highlight: true
+  description: ""
+
+- title: >
+    mTORC1 activity is supported by spatial association with focal adhesions
+  authors: "Rabanal-Ruiz Y, Byron A, Wirth A, Madsen RR, Sedlackova L, Hewitt G, Nelson G, Stingele J, Wills JC, Zhang T, Zeug A, Fässler R, Vanhaesebroeck B, Maddocks ODK, Ponimaskin E, Carroll B, Korolchuk V"
+  journal: "Journal of Cell Biology"
+  year: 2021
+  doi: "10.1083/jcb.202004010"
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: false
+  highlight: false
+  description: ""
+
+- title: >
+    NODAL/TGFβ signalling mediates the self-sustained stemness induced by
+    PIK3CA-H1047R homozygosity in pluripotent stem cells
+  authors: "Madsen RR, Longden J, Knox RG, Macleod K, Xavier R, Völlmy F, Moniz L, Carragher N, Vanhaesebroeck B, Linding R, Semple RK"
+  journal: "Disease Models & Mechanisms"
+  year: 2021
+  doi: "10.1242/dmm.048298"
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: true
+  highlight: true
+  description: ""
+
+- title: >
+    Luminescent peptide tagging enables efficient screening for
+    CRISPR-mediated knock-in in human induced pluripotent stem cells
+  authors: "Madsen RR, Semple RK"
+  journal: "Wellcome Open Research"
+  year: 2019
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: true
+  highlight: false
+  description: "Version 3; peer review: 2 approved. Wellcome Open Res 2019, 4:37."
+
+- title: >
+    Genetic activation of PIK3CA in human pluripotent stem cells reveals
+    allele dose-dependent developmental effects
+  authors: "Madsen RR, Knox RG, Pearce W, Lopez S, Mahler-Araujo B, McGranahan N, Vanhaesebroeck B, Semple RK"
+  journal: "PNAS"
+  year: 2019
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: false
+  highlight: true
+  description: "PNAS 2019, 116, pp. 8380–8389."
+
+- title: >
+    Epigenetic regulation of vascular smooth muscle cells by histone H3 lysine
+    9 dimethylation attenuates target gene-induction by inflammatory signalling
+  authors: "Harman JL, Dobnikar L, Chappell J, Stokell BG, Dalby A, Foote K, Finigan A, Freire-Pritchett P, Taylor AL, Worssam MD, Madsen RR, Loche E, Uryga A, Bennett MR, Jorgensen HF"
+  journal: "Arteriosclerosis, Thrombosis, and Vascular Biology"
+  year: 2019
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: false
+  highlight: false
+  description: ""
+
+- title: >
+    Coenzyme Q10 prevents insulin signaling dysregulation and inflammation
+    prior to development of insulin resistance in male offspring of a rat
+    model of poor maternal nutrition and accelerated postnatal growth
+  authors: "Tarry-Adkins JL, Fernandez-Twinn DS, Madsen RR, Chen JH, Carpenter A, Hargreaves IP, McConnell JM, Ozanne SE"
+  journal: "Endocrinology"
+  year: 2015
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "article"
+  corresponding: false
+  highlight: false
+  description: "Endocrinology 2015, 156(10), pp. 3528–3537."
+
+# ─── Reviews & commentaries ──────────────────────────────────────────────────
+
+- title: >
+    mTOR pathway diseases: challenges and opportunities from bench to bedside
+    and the mTOR node
+  authors: "Mantoan Ritter L, Annear NMP, Baple EL, Ben-Chaabane LY, Bodi I, Brosson L, Cadwgan JE, Coslett B, Crosby AH, Davies DM, Daykin N, Dedeurwaerdere S, Dühring Fenger C, Dunlop EA, Elmslie FV, Girodengo M, Hambleton S, Jansen AC, Johnson SR, Kearley KC, Kingswood JC, Laaniste L, Lachlan K, Latchford A, Madsen RR, Mansour S, Mihaylov SR, Muhammed L, Oliver C, Pepper T, Rawlins LE, Schim van der Loeff I, Siddiqui A, Takhar P, Tatton-Brown K, Tee AR, Tibarewal P, Tye C, Ultanir SK, Vanhaesebroeck B, Zare B, Pal DK, Bateman JM"
+  journal: "Orphanet Journal of Rare Diseases"
+  year: 2025
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "review"
+  corresponding: false
+  highlight: false
+  description: "Orphanet J Rare Dis. 2025 May 27;20(1):256."
+
+- title: >
+    PI3K signalling through a biochemical systems lens
+  authors: "Madsen RR, Toker A"
+  journal: "Journal of Biological Chemistry"
+  year: 2023
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "review"
+  corresponding: true
+  highlight: true
+  description: "JBC 2023, 299(10), 105224."
+
+- title: >
+    PIK3CA-related overgrowth: silver bullets from the cancer arsenal?
+  authors: "Madsen RR, Semple RK"
+  journal: "Trends in Molecular Medicine"
+  year: 2022
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "review"
+  corresponding: false
+  highlight: false
+  description: "Trends Mol Med 2022, 28, 255–257."
+
+- title: >
+    Precision targeting of mutant PI3Kα in cancer by selective degradation
+  authors: "Vanhaesebroeck B, Burke JE, Madsen RR"
+  journal: "Cancer Discovery"
+  year: 2022
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "review"
+  corresponding: false
+  highlight: false
+  description: "Cancer Discovery 2022, 12, 20–22."
+
+- title: >
+    PI3K in stemness regulation: from development to cancer
+  authors: "Madsen RR"
+  journal: "Biochemical Society Transactions"
+  year: 2020
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "review"
+  corresponding: true
+  highlight: false
+  description: "Biochem Soc Trans 2020, 48, pp. 301–315."
+
+- title: >
+    Cracking the context-specific PI3K signalling code
+  authors: "Madsen RR, Vanhaesebroeck B"
+  journal: "Science Signaling"
+  year: 2020
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "review"
+  corresponding: true
+  highlight: true
+  description: "Science Signaling 2020, Jan 7; 13, eaay2940."
+
+- title: >
+    Perspective: potential impact and therapeutic implications of oncogenic
+    PI3K activation on chromosomal instability
+  authors: "Vanhaesebroeck B, Bilanges B, Madsen RR, Dale KL, Lau E, Vladimirou E"
+  journal: "Biomolecules"
+  year: 2019
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "review"
+  corresponding: false
+  highlight: false
+  description: "Biomolecules 2019, Aug 1;9(8), pii: E331."
+
+- title: >
+    Cancer-associated PIK3CA mutations in overgrowth disorders
+  authors: "Madsen RR, Vanhaesebroeck B, Semple RK"
+  journal: "Trends in Molecular Medicine"
+  year: 2018
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "review"
+  corresponding: false
+  highlight: true
+  description: "Trends Mol Med 2018, 24(10), pp. 856–870."
+
+# ─── Book chapters ────────────────────────────────────────────────────────────
+
+- title: >
+    Principles of PI3K biology and its role in lymphoma
+  authors: "Madsen RR"
+  journal: "Targeting Oncogenic Drivers and Signaling Pathways in Hematologic Malignancies: From Concept to Practice (Wiley-Blackwell)"
+  year: 2023
+  doi: ""
+  preprint_doi: ""
+  status: "published"
+  type: "book-chapter"
+  corresponding: true
+  highlight: false
+  description: "In: O'Conner OA, Ansell SM, Seymour JF (eds). Hoboken (NJ): Wiley-Blackwell; 2023. PMID: 36282940."

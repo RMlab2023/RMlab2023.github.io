@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>An Autumnal Update — 10.11.2024 | The Madsen Lab</title>
+  <meta name="description" content="The team is growing, new projects have started, and deadlines are always looming in the background.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* ============================================================
+       THE MADSEN LAB — MAIN STYLESHEET
+       ============================================================ */
+
+    /* --- Variables ------------------------------------------- */
+    :root {
+      --navy:        #1a2744;
+      --navy-light:  #243461;
+      --teal:        #2a9d8f;
+      --teal-light:  #3dbfb0;
+      --teal-pale:   #e8f7f5;
+      --gold:        #e9c46a;
+      --text:        #2d2d2d;
+      --text-muted:  #6c757d;
+      --bg-light:    #f8f9fa;
+      --white:       #ffffff;
+      --border:      #dee2e6;
+      --shadow-sm:   0 2px 8px rgba(26,39,68,0.08);
+      --shadow-md:   0 6px 24px rgba(26,39,68,0.12);
+      --shadow-lg:   0 12px 40px rgba(26,39,68,0.16);
+      --radius:      0.5rem;
+      --radius-lg:   1rem;
+    }
+
+    /* --- Base ------------------------------------------------- */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 1rem;
+      background: var(--white);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Playfair Display', Georgia, serif;
+      color: var(--navy);
+      line-height: 1.25;
+      font-weight: 700;
+    }
+    a { color: var(--teal); text-decoration: none; transition: color 0.2s ease; }
+    a:hover { color: var(--navy); text-decoration: underline; }
+    img { max-width: 100%; height: auto; }
+
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    figure img {
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-md);
+      width: 100%;
+    }
+    figcaption {
+      margin-top: 0.6rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    p { margin-bottom: 1.25rem; }
+
+    /* --- Navbar ----------------------------------------------- */
+    #main-nav {
+      background: var(--navy);
+      padding: 0.75rem 0;
+      box-shadow: var(--shadow-md);
+    }
+    #main-nav .navbar-brand {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      line-height: 1.2;
+    }
+    .brand-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: 0.01em;
+    }
+    .brand-tagline {
+      font-size: 0.7rem;
+      color: var(--teal-light);
+      font-style: italic;
+      letter-spacing: 0.03em;
+      margin-top: 1px;
+    }
+    #main-nav .nav-link {
+      color: rgba(255,255,255,0.85) !important;
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 0.5rem 0.9rem !important;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    #main-nav .nav-link:hover { color: var(--teal-light) !important; }
+    #main-nav .navbar-toggler { border-color: rgba(255,255,255,0.3); }
+    #main-nav .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    /* --- Page Header ------------------------------------------ */
+    .page-header {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+      color: var(--white);
+      padding: 4rem 0 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .page-header::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+    }
+    .page-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.5rem;
+    }
+
+    /* --- Page Content ----------------------------------------- */
+    .page-content { padding: 4rem 0; }
+    .page-content h2 {
+      font-size: 1.7rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--teal-pale);
+      color: var(--navy);
+    }
+    .page-content h3 {
+      font-size: 1.3rem;
+      margin-top: 1.75rem;
+      color: var(--navy-light);
+    }
+
+    /* --- Post meta ------------------------------------------- */
+    .post-meta {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.7);
+    }
+    .post-badge {
+      background: var(--teal-pale);
+      color: var(--teal);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.3rem 0.8rem;
+      border-radius: 2rem;
+    }
+
+    /* --- Buttons --------------------------------------------- */
+    .btn-outline-primary {
+      color: var(--teal);
+      border-color: var(--teal);
+      font-weight: 600;
+      border-radius: 2rem;
+      padding: 0.6rem 1.5rem;
+    }
+    .btn-outline-primary:hover {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: var(--white);
+    }
+
+    /* --- Footer ---------------------------------------------- */
+    .site-footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.8);
+      padding: 4rem 0 0;
+    }
+    .footer-heading {
+      color: var(--white);
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+    }
+    .footer-text {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.7;
+    }
+    .footer-text a { color: var(--teal-light); }
+    .footer-links { list-style: none; padding: 0; margin: 0; }
+    .footer-links li { margin-bottom: 0.5rem; }
+    .footer-links a {
+      color: rgba(255,255,255,0.65);
+      font-size: 0.88rem;
+    }
+    .footer-links a:hover { color: var(--teal-light); text-decoration: none; }
+    .footer-social { display: flex; gap: 0.75rem; margin-bottom: 0.5rem; }
+    .footer-social a {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.7);
+      font-size: 1rem;
+    }
+    .footer-social a:hover {
+      background: var(--teal);
+      color: var(--white);
+      text-decoration: none;
+    }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding: 1.5rem 0;
+      margin-top: 3rem;
+    }
+    .footer-bottom p {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.45);
+      margin: 0;
+    }
+    .footer-bottom a { color: rgba(255,255,255,0.6); }
+    .footer-bottom a:hover { color: var(--teal-light); text-decoration: none; }
+
+    /* --- Responsive ------------------------------------------ */
+    @media (max-width: 768px) {
+      .page-content { padding: 2.5rem 0; }
+      .page-header { padding: 2.5rem 0 2rem; }
+    }
+
+    /* --- Offline banner -------------------------------------- */
+    .offline-banner {
+      background: var(--teal-pale);
+      border-bottom: 2px solid var(--teal);
+      padding: 0.6rem 0;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--navy);
+    }
+    .offline-banner strong { color: var(--teal); }
+  </style>
+</head>
+<body>
+
+  <!-- Offline preview notice -->
+  <div class="offline-banner">
+    <strong>Offline Preview</strong> — This is a static preview of the autumnal blog post. Navigation links are inactive.
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="brand-name">The Madsen Lab</span>
+        <span class="brand-tagline d-none d-md-block">Quantitative PI3K Systems Biology</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">People</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Open Science</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Students</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Post -->
+  <article class="post">
+
+    <!-- Page Header -->
+    <div class="page-header">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="post-meta mb-2">
+              <span class="post-date">
+                <i class="fas fa-calendar-alt me-1"></i>
+                November 10, 2024
+              </span>
+              <span class="post-author ms-3">
+                <i class="fas fa-user me-1"></i>
+                Ralitsa Madsen
+              </span>
+              <span class="post-categories ms-3">
+                <span class="badge post-badge">lab-news</span>
+              </span>
+            </div>
+            <h1 class="page-title">An Autumnal Update — 10.11.2024</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post Content -->
+    <div class="page-content">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <p>It has been quite a busy time in the Madsen Lab, or Madness (!) as we also like to call ourselves. The team is growing, new projects have started, and deadlines are always looming in the background. A few musings inspired by events in the past months. Some good, some bad, and some simply okay!</p>
+
+            <p>Fingers crossed that we are close to the finish line with the formal publication of our key <strong>paper</strong> on how information transfer is corrupted in cells with an activating PIK3CA mutation. This also includes our new framework for measuring single-cell PI3K signalling with high quantitative precision. What a labour of love and quite the journey when it comes to publishing! We have not had to do a single new experiment, and yet it is now nearly a year since first submission. The key reasons for this protracted process are delays at the initial journal that handled our paper, some unfortunate misunderstandings and poor behaviour from one editor and, ultimately, a decision by us to take the paper somewhere else where we would be treated with respect. There will be more on this experience in future, as there are important lessons that I would like to share with the wider community. For now, just a reminder to colleagues and friends that we all do our best and deserve to be treated with care and respect, not only by reviewers but also by editors. This is so important if we want to break away from the old and rather brutal system of "publish or perish" which pushes so many of our best trainees out of academia. On a brighter note, we are really excited about the publication venue that is now handling our paper and, for a variety of reasons, this is a much more suitable home for our work. More on this once the paper is out!</p>
+
+            <p>In September 2024, the lab had only two members: myself and my student Oliwia Mruk, now starting her PhD. Soon after, we were joined by Sabrina Low (previously a summer student, now an honours student) and Alex Musk (a Wellcome Trust PhD student on a rotation project). Just last week, Saira Ashraf joined us as a senior research technician. From 2 to 5 in less than two months! There is nothing more satisfying for a PI than to build and nurture a team of kind and hard-working individuals, who care not only about the work that they do but also about the environment within which they work. At the beginning, everyone needs to be given the time to learn and develop key skills, which requires tolerance to inevitable mistakes and understanding that, actually, mistakes are the best teachers for everybody. We learn from them and we try to avoid them in future. I am grateful that my team is conscientious and diligent, with a shared understanding of how important research integrity is to all that we do. That said, I am under no illusion that I have the main responsibility for ensuring that they are empowered to think creatively and to achieve what they have set out to do. This is no easy task for a young PI, and so I was really happy to have the opportunity to attend EMBO's Lab Leadership Course for three full days earlier this week. I learnt a lot, and a lot will need continued revision and consolidation, but I am excited to apply the new tools and methods in my efforts to ensure a healthy and productive research culture within the lab. I hope that my team will also understand that this is a learning experience for me, and so I will not always get it right, but I promise to try my best!</p>
+
+            <p>I cannot remember where I read it, but I did come across a statement that we spend more time with the people in our labs than with our families! To me, this really illustrates the importance of ensuring that the lab is a welcoming place for everybody and that we remember to have fun amidst all the hard work. And so, as I end this blogpost, I hope the smiles of the team in the below photos will also bring a smile to your face wherever and whoever you are! (P.S. Check out our <strong><a href="#">Want to join us</a></strong> page if you think you are missing from the photos below, and get in touch with Ralitsa!)</p>
+
+            <figure>
+              <img src="assets/images/posts/2024-11-10-autumnal/cinema.jpeg" alt="In the cinema about to watch Paddington in Peru">
+              <figcaption>Friday 8 November — we are in the cinema about to watch Paddington in Peru</figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/posts/2024-11-10-autumnal/oliwia_FLF.jpeg" alt="Oliwia and Sabrina being creative in Create Space">
+              <figcaption>Thursday 7 November — Oliwia and Sabrina are being creative in Create Space, in preparation for the start of the Madsen Lab Future Leaders Fellowship</figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/posts/2024-11-10-autumnal/glasgow_trip.jpeg" alt="On the way to a joint lab meeting in Glasgow">
+              <figcaption>Thursday 31 October — Halloween and PIP Extravaganza, i.e. we are on our way to a joint lab meeting with David Bryant's group at CRUK Scotland in Glasgow</figcaption>
+            </figure>
+
+            <hr class="my-5">
+
+            <div class="post-nav d-flex justify-content-between">
+              <span></span>
+              <a href="#" class="btn btn-outline-primary">
+                Giving It Back <i class="fas fa-arrow-right ms-2"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </article>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5 class="footer-heading">The Madsen Lab</h5>
+          <p class="footer-text">
+            Quantitative systems biology of PI3K signalling in health and disease.<br>
+            CRUK Scotland Institute, University of Glasgow.
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#">Research</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Publications</a></li>
+            <li><a href="#">Open Science</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-heading">Connect</h5>
+          <div class="footer-social">
+            <a href="https://github.com/RMlab2023" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" aria-label="RSS Feed">
+              <i class="fas fa-rss"></i>
+            </a>
+          </div>
+          <p class="footer-text mt-3">
+            <i class="fas fa-envelope me-2"></i>
+            <a href="mailto:ralitsa.madsen@glasgow.ac.uk">ralitsa.madsen@glasgow.ac.uk</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 The Madsen Lab.
+          Built with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> &amp;
+          hosted on <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+title: "The Madsen Lab"
+tagline: "Quantitative Systems Biology of PI3K Signalling"
+description: >
+  We use quantitative approaches to understand how cellular context shapes the
+  output of oncogenic PIK3CA activation — with the goal of developing
+  state-gating therapeutic strategies.
+
+url: "https://RMlab2023.github.io"
+baseurl: ""
+
+# Lab info
+lab:
+  pi: "Dr. Ralitsa Madsen"
+  institution: "University of Glasgow"
+  department: "CRUK Scotland Institute"
+  email: "ralitsa.madsen@glasgow.ac.uk"   # update if needed
+  twitter: ""                    # add @handle if desired
+  github: "RMlab2023"
+  orcid: ""                      # add ORCID if desired
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /news/:year/:month/:day/:title/
+
+# Plugins (all GitHub Pages compatible)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  team:
+    output: false
+  publications:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "page"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/pages/research/"
+  - title: "People"
+    url: "/pages/people/"
+  - title: "Publications"
+    url: "/pages/publications/"
+  - title: "Open Science"
+    url: "/pages/open-science/"
+  - title: "Supervision"
+    url: "/pages/supervision/"
+  - title: "News"
+    url: "/news/"
+  - title: "Contact"
+    url: "/pages/contact/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md
+  - .gitignore
+  - node_modules/
+  - vendor/

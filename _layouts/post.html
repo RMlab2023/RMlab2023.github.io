@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="page-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="post-meta mb-2">
+            <span class="post-date">
+              <i class="fas fa-calendar-alt me-1"></i>
+              {{ page.date | date: "%B %-d, %Y" }}
+            </span>
+            {% if page.author %}
+            <span class="post-author ms-3">
+              <i class="fas fa-user me-1"></i>
+              {{ page.author }}
+            </span>
+            {% endif %}
+            {% if page.categories %}
+            <span class="post-categories ms-3">
+              {% for cat in page.categories %}
+              <span class="badge post-badge">{{ cat }}</span>
+              {% endfor %}
+            </span>
+            {% endif %}
+          </div>
+          <h1 class="page-title">{{ page.title }}</h1>
+          {% if page.excerpt and page.show_excerpt %}
+          <p class="page-subtitle">{{ page.excerpt }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          {{ content }}
+
+          <hr class="my-5">
+
+          <div class="post-nav d-flex justify-content-between">
+            {% if page.previous.url %}
+            <a href="{{ page.previous.url | relative_url }}" class="btn btn-outline-primary">
+              <i class="fas fa-arrow-left me-2"></i>{{ page.previous.title | truncate: 40 }}
+            </a>
+            {% else %}
+            <span></span>
+            {% endif %}
+
+            {% if page.next.url %}
+            <a href="{{ page.next.url | relative_url }}" class="btn btn-outline-primary">
+              {{ page.next.title | truncate: 40 }}<i class="fas fa-arrow-right ms-2"></i>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

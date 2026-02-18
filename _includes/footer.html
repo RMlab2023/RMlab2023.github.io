@@ -1,0 +1,63 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h5 class="footer-heading">The Madsen Lab</h5>
+        <p class="footer-text">
+          Quantitative systems biology of PI3K signalling in health and disease.<br>
+          CRUK Scotland Institute, University of Glasgow.
+        </p>
+      </div>
+
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="{{ '/pages/research/' | relative_url }}">Research</a></li>
+          <li><a href="{{ '/pages/people/' | relative_url }}">People</a></li>
+          <li><a href="{{ '/pages/publications/' | relative_url }}">Publications</a></li>
+          <li><a href="{{ '/pages/open-science/' | relative_url }}">Open Science</a></li>
+          <li><a href="{{ '/news/' | relative_url }}">News</a></li>
+          <li><a href="{{ '/pages/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h5 class="footer-heading">Connect</h5>
+        <div class="footer-social">
+          {% if site.lab.github %}
+          <a href="https://github.com/{{ site.lab.github }}" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+          {% if site.lab.twitter %}
+          <a href="https://twitter.com/{{ site.lab.twitter }}" target="_blank" rel="noopener" aria-label="Twitter/X">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          {% endif %}
+          {% if site.lab.orcid %}
+          <a href="https://orcid.org/{{ site.lab.orcid }}" target="_blank" rel="noopener" aria-label="ORCID">
+            <i class="fab fa-orcid"></i>
+          </a>
+          {% endif %}
+          <a href="{{ '/feed.xml' | relative_url }}" aria-label="RSS Feed">
+            <i class="fas fa-rss"></i>
+          </a>
+        </div>
+        <p class="footer-text mt-3">
+          <i class="fas fa-envelope me-2"></i>
+          <a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        &copy; {{ site.time | date: '%Y' }} The Madsen Lab.
+        Built with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> &amp;
+        hosted on <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>.
+        Site developed with <a href="https://www.anthropic.com/claude" target="_blank" rel="noopener">Claude Sonnet 4.6</a>.
+        <a href="https://github.com/{{ site.lab.github }}" target="_blank" rel="noopener">Contribute on GitHub</a>.
+      </p>
+    </div>
+  </div>
+</footer>

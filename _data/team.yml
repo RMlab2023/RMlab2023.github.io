@@ -1,0 +1,99 @@
+# Team data file
+# To add a new member, copy one of the blocks below and fill in the details.
+# photo: save image to assets/images/team/ and enter the filename (e.g., "jane-smith.jpg")
+# If no photo is provided, an icon placeholder will be shown.
+
+- name: "Dr. Ralitsa Madsen"
+  role: "Principal Investigator"
+  photo: "ralitsa-madsen.jpg"   # Save to assets/images/team/
+  bio: >
+    Ralitsa is a UKRI Future Leaders Fellow (round 8). Her research
+    focuses on the quantitative systems biology of PI3K signalling and on developing
+    state-gating therapeutic approaches. She completed her Wellcome Trust-funded PhD
+    at the Institute of Metabolic Science, Cambridge (2015–2018), followed by a
+    Sir Henry Wellcome Postdoctoral Fellowship at UCL Cancer Institute. She is an avid 
+    Open Science chmapion and serves on the UK Committee on Research Integrity (UK CORI).
+  email: "ralitsa.madsen@glasgow.ac.uk"   # update as needed
+  twitter: ""
+  github: ""
+  orcid: "0000-0001-8844-5167"
+  google_scholar: ""
+  website: ""
+  group: "pi"
+
+- name: "Oliwia Mruk"
+  role: "PhD Student"
+  photo: "oliwia-mruk.jpeg"
+  bio: >
+    Oliwia is an MRC-funded PhD student whose research focuses on non-cell-autonomous
+    mechanisms of PI3K signalling regulation. She also develops quantitative image
+    analysis pipelines for live-cell capture of PI3K signalling dynamics.
+  email: ""
+  twitter: ""
+  github: ""
+  orcid: "0009-0000-6516-3757"
+  google_scholar: ""
+  website: ""
+  group: "phd"
+
+- name: "Alex Musk"
+  role: "PhD Student"
+  photo: "alex-musk.jpeg"
+  bio: >
+    Alex is a Wellcome Trust PhD student whose research focuses on dissecting the
+    lineage-specific logic of genetic PI3Kα activation, using iPSC-derived
+    cellular models with engineered and patient-derived PIK3CA mutations.
+  email: ""
+  twitter: ""
+  github: ""
+  orcid: ""
+  google_scholar: ""
+  website: ""
+  group: "phd"
+
+
+- name: "Sweta Swaminathan"
+  role: "PhD Student"
+  photo: "sweta-swaminathan.jpg"
+  bio: >
+    Sweta is a CRUK-funded PhD student whose research focuses on dissecting
+    mechanisms of PI3Kα inhibition and adaptive feedback across lineage-
+    and ligand-receptor-specific constraints. 
+  email: ""
+  twitter: ""
+  github: ""
+  orcid: ""
+  google_scholar: ""
+  website: ""
+  group: "phd"
+
+- name: "Robert Vander Velde"
+  role: "Postdoctoral Researcher"
+  photo: "robert-vandervelde.jpg"
+  bio: >
+    Robert is an experienced postdoctoral researcher whose project
+    focuses on developing advanced lineage barcoding platforms that
+    enable the molecular reconstruction of pathological trajectories
+    in disease settings like cancer and PROS, thereby enabling targeted
+    biomarker discovery. 
+  email: ""
+  twitter: ""
+  github: ""
+  orcid: "0000-0003-0776-6773"
+  google_scholar: ""
+  website: ""
+  group: "postdoc"
+
+# --- Template for new members (copy and fill in) ---
+# - name: "First Last"
+#   role: "Postdoctoral Researcher / PhD Student / Research Assistant / etc."
+#   photo: "first-last.jpg"
+#   bio: >
+#     Short biography here.
+#   email: ""
+#   twitter: ""
+#   github: ""
+#   orcid: ""
+#   google_scholar: ""
+#   website: ""
+#   group: "postdoc"   # Options: pi, postdoc, phd, msc, alumni
