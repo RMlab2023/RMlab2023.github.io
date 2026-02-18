@@ -48,7 +48,7 @@ We combine wet-lab and computational approaches, including:
 
 ## Funding
 
-The Madsen Lab's primary funding is from a **UKRI Future Leaders Fellowship (Round 8)**, awarded to Dr. Ralitsa Madsen in May 2024. The fellowship supports research into mapping the context-dependent PI3K signalling code in health and disease, and contributes to the development of state-gating therapies.
+The Madsen Lab's primary funding is from a **UKRI Future Leaders Fellowship (Round 8)**, awarded to Dr. Ralitsa Madsen in November 2024. The fellowship supports research into mapping the context-dependent PI3K signalling code in health and disease, and contributes to the development of state-gating therapies.
 
 <div class="row g-3 mt-3">
   <div class="col-auto">
