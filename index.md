@@ -15,7 +15,7 @@ title: Home
           Decoding the <span>PI3K</span><br>Signalling Code
         </h1>
         <p class="lead">
-          We are a quantitative systems biology lab at UCL Cancer Institute. Our mission
+          We are a quantitative systems biology lab at the CRUK Scotland Institute. Our mission
           is to understand how cellular context shapes the output of oncogenic
           <em>PIK3CA</em> activation — and to translate that understanding into
           novel <strong>state-gating</strong> therapeutic strategies.
