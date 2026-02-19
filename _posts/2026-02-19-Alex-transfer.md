@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Madsen Lab News — Spring into Summer 2025"
+title: "Successful PhD transfer, lab and website relocation!"
 date: 2026-02-19
 author: Ralitsa Madsen
 categories: [lab-news, events]
@@ -38,6 +38,6 @@ And I couldn’t be prouder of that.
 
 
 <figure>
-  <img src="/assets/images/posts/2026-02-19-Alex-transfer/Alex1.jpeg" alt="The Team with our goat mascot Oreo!">
+  <img src="/assets/images/posts/2026-02-19-Alex-transfer/Alex1.jpeg" alt="Alex' successful transfer presentation.">
   <figcaption>Alex Musk nailing the transfer!</figcaption>
 </figure>
