@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cancer signalling beyond the genes"
-date: 2026-04-18
+date: 2026-04-17
 author: Ralitsa Madsen
 categories: [science, lab-news]
 excerpt: >
