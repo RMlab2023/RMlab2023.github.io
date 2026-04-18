@@ -3,7 +3,7 @@ layout: post
 title: "Cancer signalling beyond the genes"
 date: 2026-04-18
 author: Ralitsa Madsen
-categories: [science]
+categories: [science, lab-news]
 excerpt: >
    Dive into our thinking about cancer signalling in a new conceptual review by myself and collaborator Prof. Andre Levchenko.
 ---
