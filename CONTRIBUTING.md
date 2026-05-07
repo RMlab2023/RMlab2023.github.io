@@ -137,17 +137,46 @@ Normal paragraph text.
 
 ## 6. Working with GitHub
 
-If you are comfortable with Git, the recommended workflow is:
+### Authenticating with GitHub
+
+Before you can push changes from your computer, you need to authenticate with GitHub. **GitHub no longer accepts your account password for Git operations over HTTPS** — you must use one of the following:
+
+**Option A: Personal Access Token (PAT)** — recommended for most contributors
+
+1. On GitHub, go to **Settings → Developer settings → Personal access tokens → Tokens (classic)** (or use [Fine-grained tokens](https://github.com/settings/tokens?type=beta))
+2. Click **Generate new token**, give it a descriptive name (e.g. "RMlab website laptop"), set an expiration, and tick the **`repo`** scope
+3. Click **Generate token** and **copy the token immediately** — you will not be able to see it again
+4. The first time you `git push`, Git will prompt for your username and password. Enter your GitHub username, and **paste the token in place of the password**
+5. To avoid being asked every time, enable a credential helper:
+   - macOS: `git config --global credential.helper osxkeychain`
+   - Windows: `git config --global credential.helper manager`
+   - Linux: `git config --global credential.helper store` (stores in plain text) or `cache` (in-memory only)
+
+**Option B: SSH key** — recommended if you push frequently
+
+1. Generate a key on your computer: `ssh-keygen -t ed25519 -C "your.email@example.com"`
+2. Copy the public key: `cat ~/.ssh/id_ed25519.pub`
+3. On GitHub, go to **Settings → SSH and GPG keys → New SSH key**, paste it in, and save
+4. Use the SSH clone URL when cloning: `git clone git@github.com:YOUR-USERNAME/RMlab2023.github.io.git`
+
+**Option C: GitHub CLI** — easiest if you don't want to manage tokens manually
+
+1. Install the [GitHub CLI](https://cli.github.com/)
+2. Run `gh auth login` and follow the prompts — it will set up Git authentication for you
+
+### Recommended workflow
+
+If you are comfortable with Git:
 
 1. **Fork** the repository (click Fork on GitHub)
-2. **Clone** your fork locally: `git clone https://github.com/YOUR-USERNAME/RMlab2023.github.io.git`
+2. **Clone** your fork locally: `git clone https://github.com/YOUR-USERNAME/RMlab2023.github.io.git` (or use the SSH URL if you set up an SSH key)
 3. **Create a branch**: `git checkout -b add-new-publication`
 4. Make your changes
 5. **Commit**: `git add . && git commit -m "Add Smith et al. 2025 publication"`
-6. **Push**: `git push origin add-new-publication`
+6. **Push**: `git push origin add-new-publication` (you'll be prompted for credentials the first time — see above)
 7. Open a **Pull Request** on GitHub
 
-If you are not comfortable with Git, you can also **edit files directly on GitHub** (click the pencil icon on any file) and GitHub will create a pull request for you.
+If you are not comfortable with Git, you can also **edit files directly on GitHub** (click the pencil icon on any file) and GitHub will create a pull request for you. This avoids the authentication step entirely, since you are already signed in to GitHub in your browser.
 
 ---
 
