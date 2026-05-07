@@ -12,7 +12,7 @@ title: Home
       <div class="col-lg-7">
         <span class="hero-eyebrow">UKRI Future Leaders Fellowship Lab</span>
         <h1>
-          Decoding Oncogenic <span>PI3K</span><br>Signalling
+          Decoding Oncogenic<br><span>PI3K</span> Signalling
         </h1>
         <p class="lead">
           We are a quantitative systems biology lab at the CRUK Scotland Institute. Our mission
