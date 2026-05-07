@@ -133,8 +133,14 @@ permalink: /pages/people/
             {% if member.email and member.email != "" %}
             <a href="mailto:{{ member.email }}" title="Email"><i class="fas fa-envelope"></i></a>
             {% endif %}
+            {% if member.twitter and member.twitter != "" %}
+            <a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener" title="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+            {% endif %}
             {% if member.github and member.github != "" %}
             <a href="https://github.com/{{ member.github }}" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            {% endif %}
+            {% if member.orcid and member.orcid != "" %}
+            <a href="https://orcid.org/{{ member.orcid }}" target="_blank" rel="noopener" title="ORCID"><i class="fab fa-orcid"></i></a>
             {% endif %}
           </div>
         </div>
