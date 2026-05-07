@@ -84,6 +84,19 @@
   website: ""
   group: "postdoc"
 
+- name: "Aitsana Maslakova"
+  role: "Postdoctoral Researcher"   # or PhD Student, Research Associate, etc.
+  photo: "aitsana-maslakova.jpg"    # save photo to assets/images/team/
+  bio: >
+    Aitsana comes with a wealth of experience in cell biology, biochemistry and biophysics. She is pioneering a new approach to mapping context-dependent PI3Kα neighbourhoods. Combined with the group's iPSC-based disease model systems, Aitsana's work will be instrumental for our efforts to develop novel state-gating therapeutic approaches.
+  email: ""
+  twitter: ""                 # without the @
+  github: ""
+  orcid: "0000-0002-5497-4228"
+  google_scholar: ""
+  website: ""
+  group: "postdoc"   # pi | postdoc | phd | msc | alumni
+
 # --- Template for new members (copy and fill in) ---
 # - name: "First Last"
 #   role: "Postdoctoral Researcher / PhD Student / Research Assistant / etc."
