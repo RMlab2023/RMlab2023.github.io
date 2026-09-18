@@ -16,7 +16,7 @@ title: Home
         </h1>
         <p class="lead">
           We are a quantitative systems biology lab at the CRUK Scotland Institute. Our mission
-          is to understand how cellular context shapes the output of oncogenic
+          is to understand how cellular context shapes the output of pathological
           <em>PIK3CA</em> activation — and to translate that understanding into
           novel <strong>state-gating</strong> therapeutic strategies.
         </p>
@@ -44,7 +44,7 @@ title: Home
   <div class="container">
     <div class="row g-0 justify-content-center">
       <div class="col-6 col-md-3 stat-item">
-        <div class="stat-number">2023</div>
+        <div class="stat-number">2024</div>
         <div class="stat-label">Lab Founded</div>
       </div>
       <div class="col-6 col-md-3 stat-item">
