@@ -67,23 +67,6 @@
   website: ""
   group: "phd"
 
-- name: "Robert Vander Velde"
-  role: "Postdoctoral Researcher"
-  photo: "robert-vandervelde.jpg"
-  bio: >
-    Robert is an experienced postdoctoral researcher whose project
-    focuses on developing advanced lineage barcoding platforms that
-    enable the molecular reconstruction of pathological trajectories
-    in disease settings like cancer and PROS, thereby enabling targeted
-    biomarker discovery. 
-  email: ""
-  twitter: ""
-  github: ""
-  orcid: "0000-0003-0776-6773"
-  google_scholar: ""
-  website: ""
-  group: "postdoc"
-
 - name: "Aitsana Maslakova"
   role: "Postdoctoral Researcher"   # or PhD Student, Research Associate, etc.
   photo: "aitsana-maslakova.jpg"    # save photo to assets/images/team/
