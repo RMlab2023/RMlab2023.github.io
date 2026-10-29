@@ -80,6 +80,23 @@
   website: ""
   group: "postdoc"   # pi | postdoc | phd | msc | alumni
 
+- name: "Robert Vander Velde"
+  role: "Postdoctoral Researcher"
+  photo: "robert-vandervelde.jpg"
+  bio: >
+    Robert joined the group from December 2025 until October 2026 and
+    helped with the design of advanced lineage barcoding platforms for
+    the molecular reconstruction of pathological trajectories in disease
+    settings like cancer and PROS. Robert was a valued member of the team
+    but has now returned to Canada - we wish him all the best!
+  email: ""
+  twitter: ""
+  github: ""
+  orcid: "0000-0003-0776-6773"
+  google_scholar: ""
+  website: ""
+  group: "alumni"
+
 # --- Template for new members (copy and fill in) ---
 # - name: "First Last"
 #   role: "Postdoctoral Researcher / PhD Student / Research Assistant / etc."
