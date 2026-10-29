@@ -58,7 +58,24 @@
   bio: >
     Sweta is a CRUK-funded PhD student whose research focuses on dissecting
     mechanisms of PI3Kα inhibition and adaptive feedback across lineage-
-    and ligand-receptor-specific constraints. 
+    and ligand-receptor-specific constraints.
+  email: ""
+  twitter: ""
+  github: ""
+  orcid: ""
+  google_scholar: ""
+  website: ""
+  group: "phd"
+
+- name: "Nathan O'Donnell"
+  role: "PhD Student"
+  photo: "nathan-odonell.jpeg"
+  bio: >
+    Nathan is a Sarcoma UK-funded PhD student whose research focuses on
+    creating the first human-relevant iPSC model of Primary Breast
+    Angiosarcoma, a rare sarcoma type commonly driven by dysregulated
+    PI3K signalling. This model will enable identification of diagnostic
+    and prognostic biomarkers, and improved treatment strategies.
   email: ""
   twitter: ""
   github: ""
