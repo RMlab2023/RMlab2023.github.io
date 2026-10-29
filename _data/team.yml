@@ -84,6 +84,23 @@
   website: ""
   group: "phd"
 
+- name: "Megan Greer"
+  role: "PhD Student"
+  photo: "megan-greer.jpg"
+  bio: >
+    Megan is an MRC-funded PhD student on the Precision Medicine DTP whose
+    research focuses on dissecting the molecular mechanisms by which chronic
+    hyperinsulinemia can drive colorectal cancer. Her work combines
+    mitochondrial-proteome reprogramming with metabolomics to help map these
+    metabolic shifts using cross-species organoids and iPSC models.
+  email: ""
+  twitter: ""
+  github: ""
+  orcid: ""
+  google_scholar: ""
+  website: ""
+  group: "phd"
+
 - name: "Aitsana Maslakova"
   role: "Postdoctoral Researcher"   # or PhD Student, Research Associate, etc.
   photo: "aitsana-maslakova.jpg"    # save photo to assets/images/team/
